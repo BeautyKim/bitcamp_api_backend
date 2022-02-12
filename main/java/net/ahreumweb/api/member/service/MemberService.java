@@ -14,12 +14,12 @@ import java.util.Scanner;
  * 2022-02-11      ahreum        최초 생성
  */
 public interface MemberService {
-    void membershipList(Scanner scanner);
-    void memberCheckingInformation(Scanner scanner);
-    void shipmentList(Scanner scanner);
-    void sendEmailList(Scanner scanner);
-    void accumulatedMoneyList(Scanner scanner);
-    void accumulatedMoneyDelete(Scanner scanner);
+    String membershipList();
+    String memberCheckingInformation();
+    String shipmentList();
+    String sendEmailList();
+    String accumulatedMoneyList();
+    String accumulatedMoneyDelete();
 
 
 

@@ -12,4 +12,5 @@ package net.ahreumweb.api.member.controller;
  * 2022-02-11      ahreum        최초 생성
  */
 public class MemberController {
+
 }

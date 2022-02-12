@@ -15,32 +15,32 @@ import java.util.Scanner;
  */
 public class MemberServiceImpl implements MemberService{
     @Override
-    public void membershipList(Scanner scanner) {
-
+    public String membershipList() {
+        return null;
     }
 
     @Override
-    public void memberCheckingInformation(Scanner scanner) {
-
+    public String memberCheckingInformation() {
+        return null;
     }
 
     @Override
-    public void shipmentList(Scanner scanner) {
-
+    public String shipmentList() {
+        return null;
     }
 
     @Override
-    public void sendEmailList(Scanner scanner) {
-
+    public String sendEmailList() {
+        return null;
     }
 
     @Override
-    public void accumulatedMoneyList(Scanner scanner) {
-
+    public String accumulatedMoneyList() {
+        return null;
     }
 
     @Override
-    public void accumulatedMoneyDelete(Scanner scanner) {
-
+    public String accumulatedMoneyDelete() {
+        return null;
     }
 }

@@ -13,9 +13,6 @@ package net.ahreumweb.api.member.domain;
  */
 public class MemberDTO {
     public static String MEMBER = "회원 테이블";
-    private final static MemberDTO memberDTO = new MemberDTO();
-    private MemberDTO(){}
-    public static MemberDTO getInstance(){return memberDTO;}
 
     private String memId;
     private String memName;
@@ -23,8 +20,12 @@ public class MemberDTO {
     private String addr;
     private String phone1;
     private String phone2;
-    private String height;
+    private int height;
     private String debutDate;
+
+    private final static MemberDTO memberDTO = new MemberDTO();
+    private MemberDTO(){}
+    public static MemberDTO getInstance(){return memberDTO;}
 
     public static String getMEMBER() {
         return MEMBER;
@@ -82,11 +83,11 @@ public class MemberDTO {
         this.phone2 = phone2;
     }
 
-    public String getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public void setHeight(String height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 

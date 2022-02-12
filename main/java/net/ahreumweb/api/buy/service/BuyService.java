@@ -15,5 +15,10 @@ import java.util.Date;
  * 2022-02-11      ahreum        최초 생성
  */
 public interface BuyService {
-
+    String depositList();
+    String withdrawalList();
+    String returnList();
+    String exchangeList();
+    String resendList();
+    String shippingList();
 }
