@@ -1,5 +1,7 @@
 package net.ahreumweb.api.member.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Scanner;
 
 /**
@@ -13,34 +15,50 @@ import java.util.Scanner;
  * ================================
  * 2022-02-11      ahreum        최초 생성
  */
+@Service
 public class MemberServiceImpl implements MemberService{
     @Override
-    public String membershipList() {
+    public String membershiplist() {
         return null;
     }
 
     @Override
-    public String memberCheckingInformation() {
+    public String membershipinformation() {
         return null;
     }
 
     @Override
-    public String shipmentList() {
+    public String checkthelist() {
         return null;
     }
 
     @Override
-    public String sendEmailList() {
+    public String registertosendemails() {
         return null;
     }
 
     @Override
-    public String accumulatedMoneyList() {
+    public String savingmoneylist() {
         return null;
     }
 
     @Override
-    public String accumulatedMoneyDelete() {
+    public String checkthedetailsofthesavings() {
+        return null;
+    }
+
+    @Override
+    public String calc() {
+        return null;
+    }
+
+    @Override
+    public String bmi() {
+        return null;
+    }
+
+    @Override
+    public String grade() {
         return null;
     }
 }

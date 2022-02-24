@@ -14,12 +14,15 @@ import java.util.Scanner;
  * 2022-02-11      ahreum        최초 생성
  */
 public interface MemberService {
-    String membershipList();
-    String memberCheckingInformation();
-    String shipmentList();
-    String sendEmailList();
-    String accumulatedMoneyList();
-    String accumulatedMoneyDelete();
+    String membershiplist();
+    String membershipinformation();
+    String checkthelist();
+    String registertosendemails();
+    String savingmoneylist();
+    String checkthedetailsofthesavings();
+    String calc();
+    String bmi();
+    String grade();
 
 
 
