@@ -2,6 +2,8 @@ package net.ahreumweb.api.buy.controller;
 
 import net.ahreumweb.api.buy.service.BuyService;
 import net.ahreumweb.api.buy.service.BuyServiceImpl;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Scanner;
 
@@ -16,5 +18,7 @@ import java.util.Scanner;
  * ================================
  * 2022-02-11      ahreum        최초 생성
  */
+@RestController
+@RequestMapping("/buy")
 public class BuyController {
 }

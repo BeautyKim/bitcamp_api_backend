@@ -1,6 +1,7 @@
 package net.ahreumweb.api.member.service;
 
-import java.util.Scanner;
+import net.ahreumweb.api.member.domain.CalcDTO;
+import net.ahreumweb.api.member.domain.MemberDTO;
 
 /**
  * packageName:  net.ahreumweb.api.common.service
@@ -14,16 +15,11 @@ import java.util.Scanner;
  * 2022-02-11      ahreum        최초 생성
  */
 public interface MemberService {
-    String membershiplist();
-    String membershipinformation();
-    String checkthelist();
-    String registertosendemails();
-    String savingmoneylist();
-    String checkthedetailsofthesavings();
-    String calc();
-    String bmi();
-    String grade();
 
 
+    String calc(CalcDTO calc);
 
+    String bmi(MemberDTO bmi);
+
+    String login(MemberDTO login);
 }
