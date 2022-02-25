@@ -35,4 +35,8 @@ public class MemberController {
     public String login(@RequestBody MemberDTO login){
         return service.login(login);
     }
+    @PostMapping("/grade")
+    public String grade(@RequestBody MemberDTO grade){
+        return service.grade(grade);
+    }
 }

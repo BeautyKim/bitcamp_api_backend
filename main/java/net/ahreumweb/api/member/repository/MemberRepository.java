@@ -10,4 +10,6 @@ public interface MemberRepository {
     String bmi(MemberDTO bmi);
 
     String login(MemberDTO login);
+
+    String grade(MemberDTO grade);
 }

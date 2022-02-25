@@ -22,4 +22,9 @@ public class MemberRepositoryImpl implements MemberRepository {
     public String login(MemberDTO login) {
         return null;
     }
+
+    @Override
+    public String grade(MemberDTO grade) {
+        return null;
+    }
 }
